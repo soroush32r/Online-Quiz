@@ -1,3 +1,5 @@
 export * from './Card'
 export * from './CardHeader'
 export * from './Questions'
+export * from './Question'
+export * from './Finish'
