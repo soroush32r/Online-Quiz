@@ -11,9 +11,7 @@ const Questions = ({ questions, currentIndex, nextQuestion, restartQuiz }) => {
 
   const handleNextQuestionClick = () => {
     nextQuestion()
-    if (currentIndex < questions.length - 1){
-      setClickedIndex(null)
-    }
+    setClickedIndex(null)
   }
 
   return (
